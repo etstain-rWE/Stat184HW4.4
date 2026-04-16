@@ -1,6 +1,6 @@
 # Project Title
 
-Write a 1-2 sentences that quickly and clearly convey what your repo is for.
+This project is intended to demonstrate how HW4.3 was completed.
 
 ## Overview
 
