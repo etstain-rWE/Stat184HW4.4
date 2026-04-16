@@ -1,0 +1,30 @@
+Function Name: mc_simulation
+
+Description:
+This function generates a set of random (x, y) coordinate pairs for use in Monte Carlo numerical integration. The points are sampled uniformly within user-specified bounds for x and y.
+
+Inputs:
+
+n: The number of random points to generate (sample size).
+
+x_min: The minimum value of the x-range.
+
+x_max: The maximum value of the x-range.
+
+y_min: The minimum value of the y-range.
+
+y_max: The maximum value of the y-range.
+
+Outputs:
+
+A data frame with two columns:
+
+x: Randomly generated x-values within the specified range
+
+y: Randomly generated y-values within the specified range
+
+Details:
+The function uses a uniform distribution to randomly sample x and y values within the specified bounds. These points can later be used to estimate the area under a curve by determining the proportion of points that fall below the function.
+
+Example:
+mc_simulation(n = 1000, x_min = 2, x_max = 6, y_min = 0, y_max = 4)
