@@ -8,7 +8,12 @@ x_max <- 20
 y_min <- 0
 y_max <- 0.16
 rectangle_area <- (x_max - x_min) * (y_max - y_min)
-
+mc_simulation <- function(n, x_min, x_max, y_min, y_max) {
+  data.frame(
+    x = runif(n, min = x_min, max = x_max),
+    y = runif(n, min = y_min, max = y_max)
+  )
+}
 make_mc_plot <- function(n_value) {
   sim_data <- mc_simulation(
     n = n_value,
