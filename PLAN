@@ -1,0 +1,133 @@
+# Project Plan: STAT 184 HW 4.4
+
+## 1. Project Plan
+
+### Goal
+
+The goal of this project is to complete Homework 4.4 by producing a fully reproducible Quarto document that integrates data analysis, visualization, simulation, and AI-assisted insights.
+
+The project includes:
+- Airport passenger traffic analysis
+- Monte Carlo numerical integration
+- Calcium dataset wrangling and visualization
+- Evaluation of generative AI prompting
+
+---
+
+### Requirements
+
+To successfully complete the project, the following requirements must be met:
+
+- Create a Quarto document with four main sections:
+  1. Busiest Airports Analysis
+  2. Monte Carlo Numerical Integration
+  3. Planning and Prompting GenAI Tools
+  4. Reflection
+
+- Include:
+  - Tables and plots
+  - Narrative analysis (not just descriptions)
+  - Small multiple visualization
+  - Exact numerical integration interpretation
+  - GenAI prompt comparison
+
+- Ensure:
+  - No code appears in the main document body
+  - All code is placed in an Appendix
+  - All figures are inserted as image files
+  - Relative file paths are used
+
+---
+
+### Steps
+
+#### Step 1: Airport Data Analysis
+- Scrape airport data from Wikipedia using `rvest`
+- Clean and filter for selected airports
+- Create summary table
+- Create line plot visualization
+- Export plots as images
+
+#### Step 2: Monte Carlo Simulation
+- Implement Monte Carlo simulation function
+- Generate plots for different sample sizes
+- Combine plots into small multiple layout
+- Export visualization as image
+- Interpret convergence behavior
+
+#### Step 3: Calcium Data Wrangling
+- Load `calcium.csv`
+- Convert wide format to long format
+- Create variables: subject_id, group, year
+- Generate:
+  - Mean trend plot
+  - Spaghetti plot
+  - Boxplot
+- Export all plots as images
+
+#### Step 4: GenAI Prompting
+- Develop a structured plan for data wrangling and visualization
+- Create a plan-based prompt
+- Compare results with a generic prompt
+- Write comparison analysis
+
+#### Step 5: Write Quarto Document
+- Organize into required sections
+- Insert figures and tables
+- Add narrative explanations
+- Add reflection section
+
+#### Step 6: Create Supporting Files
+- Create README.md
+- Create PLAN.md (this document)
+- Organize repository structure
+
+---
+
+## 2. Repository Plan
+
+### Goal
+
+To create a clean, well-organized, and reproducible GitHub repository that supports the project.
+
+---
+
+### Requirements
+
+- All files needed to run the analysis must be included
+- Use relative file paths only
+- Include:
+  - Quarto file (`.qmd`)
+  - Data file (`calcium.csv`)
+  - Image files
+  - Code scripts (`.R`)
+  - Documentation files (`README.md`, `PLAN.md`)
+
+---
+
+### Steps
+
+#### Step 1: Set Up Repository
+- Create GitHub repository
+- Initialize with README.md
+
+#### Step 2: Organize Files
+- Create `images/` folder for plots
+- Place data and scripts in root directory
+- Ensure clear naming conventions
+
+#### Step 3: Maintain Repository
+- Commit changes regularly
+- Use descriptive commit messages
+- Link commits to issues when applicable
+
+#### Step 4: Ensure Reproducibility
+- Verify all paths are relative
+- Ensure all required files are included
+- Test Quarto rendering from scratch
+
+---
+
+## Summary
+
+This plan ensures that the project is completed in a structured and reproducible manner, meeting all assignment requirements while maintaining clarity, organization, and professional standards.
