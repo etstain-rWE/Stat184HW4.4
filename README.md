@@ -41,24 +41,43 @@ Future improvements may include:
 ## Repo Structure
 
 Stat184HW4.4/
+
 │
+
 ├── hw4.4.qmd # Final Quarto report
+
 ├── README.md # Project documentation
+
 │
+
 ├── images/ # Figures used in the report
+
 │ ├── airport_plot.png
+
 │ ├── airport_table.png
+
 │ ├── mc_plot.png
+
 │ ├── calcium_mean.png
+
 │ ├── calcium_spaghetti.png
+
 │ ├── calcium_box.png
+
 │
+
 ├── calcium.csv # Dataset for calcium analysis
+
 │
+
 ├── airport.R # Airport data processing
+
 ├── MonteCarlo.R # Monte Carlo simulation
+
 ├── MonteCarloExplain.txt # Explain how Monte Carlo used
+
 ├── calciumTest.R # Calcium data wrangling
+
 ├── hw4.4.pdf # the final output for hw4.3
 
 ## Authors
